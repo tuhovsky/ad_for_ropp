@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Verdana";
+}
+
+div.ad {
+    position: relative;
+    height: 1280px;
+    background-image: url('../images/office_cashier.jpg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+div.ad-header {
+    position: absolute;
+    left: 9%;
+    top: 1%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div.ad-text {
+    position: absolute;
+    left: 5%;
+    top: 11%;
+    font-size: 1.2em;
+}
+
+div.ad-contacts {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: 1.2em;
+}
+
+div.ad-contacts i.phone {
+    position: absolute;
+    left: -6%;
+    top: -16%;
+    font-size: 1.7em;
+}
+
+div.ad-contacts i.address {
+    position: absolute;
+    left: 33%;
+    top: -16%;
+    font-size: 1.7em;
+}
